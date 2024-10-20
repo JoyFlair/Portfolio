@@ -1,0 +1,73 @@
+/* Center all text */
+
+
+h2, p {
+    text-align: center;
+  }
+  
+  /* Center the container */
+  .container {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color:  #979899;
+    padding: 30px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  /* Add spacing between form groups */
+  .form-group {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Center the form in the column */
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Customize the form controls */
+  .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  /* Customize the labels */
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Add spacing between sections */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  /* Customize the transaction details */
+  .transaction-details {
+    background-color: #66615b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .totalcost{
+    font-size: 50px;
+  }
+  .cash {
+    font-size: 40px;
+  }
+  .change {
+
+    font-size: 40px;
+  }
+  .danger {
+    position: fixed;
+    bottom: 70px;
+    right: 143px;
+    z-index: 1000; /* Ensure it's above other content */
+    padding-right: 30px; /* Add padding to the right side */
+}

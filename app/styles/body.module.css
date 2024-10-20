@@ -1,0 +1,10 @@
+/* components/Body.module.css */
+
+.background {
+    background-image: url('/assets/images/1.jpg');
+    background-color: #ab86b1; /* Blue background color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(6, 36, 107, 0.952); /* Shadow for depth */
+  }
+  
